@@ -1,20 +1,20 @@
-const express = require(“express”);
+const express = require("⁠express"⁠);
 
 const app = express();
 app.use(express.json());
 
-app.get(”/”, (req, res) => {
+app.get("⁠/"⁠, (req, res) => {
 res.json({
-nome: “HazePay API”,
-status: “online”,
-mensagem: “API iniciada com sucesso!”
+nome: "⁠HazePay API"⁠,
+status: "⁠online"⁠,
+mensagem: "⁠API iniciada com sucesso!"⁠
 });
 });
 
-app.get(”/api/status”, (req, res) => {
+app.get("⁠/api/status"⁠, (req, res) => {
 res.json({
-status: “ok”,
-modo: “teste”,
+status: "⁠ok"⁠,
+modo: "⁠teste"⁠,
 pagamentos_reais: false
 });
 });
