@@ -21,6 +21,7 @@ pagamentos_reais: false
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, “0.0.0.0”, () => {
-console.log(“HazePay API rodando na porta “ + PORT);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`HazePay API rodando na porta ${PORT}`);
 });
+
